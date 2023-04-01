@@ -1,0 +1,124 @@
+body{
+    background: #fff;
+    font-family: arial;
+    color: #030303;
+    font-size: 14px;
+}
+#banner{
+    width: 100%;
+    height: auto;
+    background: #CD020B;
+    text-align: center;
+}
+#header-top{
+    height: auto;
+    background: #F5F5F5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#header-top a{
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+}
+#header-top a:hover, #header-top a i{
+    text-decoration: none;
+    color: #CD020B;
+}
+#header-top-2{
+    text-align: right;
+}
+#header-top-2 a{
+    margin-left: 50px;
+}
+#header-main{
+    height: auto;
+    background: #fff;
+}
+#logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#search, #header-main-top-1{
+    padding-top: 25px;
+}
+#search input{
+    width: 75%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    background-color: #F5F5F5;
+}
+#search button{
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background: #CD020B;
+    color: #fff;
+    padding: 0 15px;
+}
+#header-main-top-1{
+    display: flex;
+    justify-content: space-between;
+}
+#header-main-top-1 a{
+    color: #333;
+}
+#follow a{
+    position: relative;
+    font-weight: bold;
+    padding-left: 40px;
+    display: inline-block;
+}
+
+#follow a::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 0;
+    transition: all .2s;
+}
+#follow a:hover, #user a:hover{
+    text-decoration: none;
+    color: #CD020B;
+}
+#follow a:hover::before{
+    top: 0;
+}
+#user a i{
+    position: relative;
+    padding-left: 40px;
+    color: #CD020B;
+}
+#user a:first-child{
+    font-weight: bold; 
+}
+#user a:first-child:hover::before{
+    top: 0;
+}
+#cart{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}
+#cart span{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: #000;
+    border-radius: 100%;
+    top: -7px;
+    right: -7px;
+}
